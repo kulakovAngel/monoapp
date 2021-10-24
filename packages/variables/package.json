@@ -1,0 +1,16 @@
+{
+  "name": "@monoapp/variables",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "ValeryKulakov <kulakov.resurs@tut.by>",
+  "homepage": "",
+  "license": "UNLICENSED",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "@monoapp/back",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "ValeryKulakov <kulakov.resurs@tut.by>",
+  "homepage": "",
+  "license": "UNLICENSED",
+  "private": true,
+  "main": "src/index.js",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "start": "nodemon src/index",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@monoapp/utils": "*",
+    "@monoapp/variables": "*",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}

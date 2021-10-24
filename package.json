@@ -1,0 +1,17 @@
+{
+  "name": "@monoapp/root",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "ValeryKulakov <kulakov.resurs@tut.by>",
+  "homepage": "",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "lerna run start",
+    "test": "lerna run test --stream"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1",
+    "lerna": "^4.0.0"
+  }
+}
